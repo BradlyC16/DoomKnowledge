@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DoomKnowledge</string>
+    <string name="do_you_have_a_good_knowledge_on_doom">Do you have a good knowledge on Doom?</string>
+    <string name="begin">Begin!</string>
+    <string name="how_mush_health_points_does_the_zombieman_have">how mush health points does the zombieman have?</string>
+    <string name="_20">20</string>
+    <string name="_5">5</string>
+    <string name="_15">15</string>
+    <string name="_30">30</string>
+</resources>
