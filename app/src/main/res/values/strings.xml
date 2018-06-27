@@ -7,4 +7,9 @@
     <string name="_5">5</string>
     <string name="_15">15</string>
     <string name="_30">30</string>
+    <string name="what_boss_role_does_the_demon_spiderbrain_appeared_in_the_game">What boss role does the demon spiderbrain appeared in the game?</string>
+    <string name="third_boss">Third Boss</string>
+    <string name="second_boss">Second Boss</string>
+    <string name="first_boss">First Boss</string>
+    <string name="final_boss">Final boss</string>
 </resources>
