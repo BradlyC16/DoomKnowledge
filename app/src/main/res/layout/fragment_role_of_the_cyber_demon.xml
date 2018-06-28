@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/demon_spiderbrain_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/what_boss_role_does_the_demon_spiderbrain_appeared_in_the_game"
+        android:id="@+id/boss_role_of_the_cyber_demon_textView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="@string/when_does_the_cyberdemon_first_appear_in_the_game"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/demon_spiderbrain_incorrect_role3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/third_boss"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/demon_spiderbrain_incorrect_role2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:layout_marginEnd="23dp"
-        android:text="@string/second_boss"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/demon_spiderbrain_incorrect_role3"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/demon_spiderbrain_incorrect_role1"
+        android:id="@+id/cyber_demon_incorrect_role1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:layout_marginStart="32dp"
-        android:text="@string/first_boss"
+        android:text="@string/third_boss"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/demon_spiderbrain_correct_role"
+        android:id="@+id/cyber_demon_incorrect_role2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/Final_boss"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cyber_demon_correct_role"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:layout_marginStart="30dp"
-        android:text="@string/final_boss"
+        android:layout_marginEnd="30dp"
+        android:text="@string/first_boss"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/demon_spiderbrain_incorrect_role1"
+        app:layout_constraintBottom_toTopOf="@+id/cyber_demon_incorrect_role2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cyber_demon_incorrect_role3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="23dp"
+        android:text="@string/second_boss"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cyber_demon_incorrect_role1"
         app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

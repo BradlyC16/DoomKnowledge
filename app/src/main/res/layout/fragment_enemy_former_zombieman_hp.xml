@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/zombieman_hp"
+        android:id="@+id/zombieman_hp_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/how_mush_health_points_does_the_zombieman_have"

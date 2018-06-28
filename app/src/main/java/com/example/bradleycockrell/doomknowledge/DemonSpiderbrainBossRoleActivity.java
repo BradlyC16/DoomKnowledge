@@ -5,6 +5,8 @@ import android.widget.TextView;
 
 public class DemonSpiderbrainBossRoleActivity {
 
+
+
     protected Button demon_spiderbrain_incorrect_role3;
 
     protected Button demon_spiderbrain_incorrect_role2;

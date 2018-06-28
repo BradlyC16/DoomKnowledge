@@ -12,4 +12,9 @@
     <string name="second_boss">Second Boss</string>
     <string name="first_boss">First Boss</string>
     <string name="final_boss">Final boss</string>
+    <string name="third_boss">Third Boss</string>
+    <string name="when_does_the_cyberdemon_first_appear_in_the_game">When does the CyberDemon first appear in the game?</string>
+    <string name="Final_boss">Final Boss</string>
+    <string name="first_boss">First Boss</string>
+    <string name="second_boss">Second Boss</string>
 </resources>
